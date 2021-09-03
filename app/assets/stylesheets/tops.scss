@@ -50,3 +50,42 @@ input:-webkit-autofill {
   border: thin solid rgb(53, 53, 53);
   box-shadow: 0 0 0 1000px white inset;
 }
+
+/* ヘッダー */
+
+.header{
+    height: 150px;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 120px;
+}
+
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(237, 237, 237);
+    padding: 0 50px;
+    font-size: 23px;
+}
+  
+.logo{
+    height: 50px;
+    width: 200px;
+    margin-left: 30px;
+    border-radius: 25px;
+}
+  
+.nav_btn{
+    height: 30px;
+    margin: 0 40px;
+    color: rgb(39, 139, 193);
+}
+  
+.nav_btn:hover{
+    text-decoration: underline;
+    border-radius: 35px;
+}

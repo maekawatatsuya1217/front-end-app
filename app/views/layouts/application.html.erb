@@ -10,6 +10,16 @@
   </head>
 
   <body>
+    <%# ヘッダー %>
+    <header class="header">
+      <div class="area_logo">
+        <%= link_to image_tag("front.png", class: :logo), root_path %>
+      </div>
+      <div class="header_menu">
+        <%= link_to "About", root_path, class: :nav_btn %> 
+        <%= link_to "Works", root_path, class: :nav_btn %>
+      </div>
+    </header>
     <%= yield %>
   </body>
 </html>
