@@ -115,23 +115,41 @@ input:-webkit-autofill {
 }
 
 .content{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 100px;
 }
 
 .about_image{
-  height: 200px;
-  width: 300px;
+    height: 200px;
+    width: 300px;
 }
 
 .description_title{
-  font-size: 25px;
-  text-decoration: underline rgb(99, 162, 196) 3px;
-  margin-bottom: 40px;
+    font-size: 25px;
+    text-decoration: underline rgb(99, 162, 196) 3px;
+    margin-bottom: 40px;
 }
 
+
+// Works
+
+.container{
+    margin: 0 auto;
+}
+
+.head_home{
+    display: flex;
+    justify-content: center;
+}
+
+.list_feature  .ttl{
+    width: 200px;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0 20px;
+}
 
 // フッター
 
