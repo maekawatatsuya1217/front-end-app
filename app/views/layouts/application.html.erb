@@ -11,25 +11,29 @@
 
   <body>
     <%# ヘッダー %>
-    <header class="header">
-      <div class="area_logo">
-        <%= link_to image_tag("front.png", class: :logo), root_path %>
-      </div>
-      <div class="header_menu">
-        <%= link_to "About", root_path, class: :nav_btn %> 
-        <%= link_to "Works", root_path, class: :nav_btn %>
-      </div>
-    </header>
+      <header class="header">
+        <div class="area_logo">
+          <%= link_to image_tag("front.png", class: :logo), root_path %>
+        </div>
+        <div class="header_menu">
+          <%= link_to "About", root_path, class: :nav_btn %> 
+          <%= link_to "Works", root_path, class: :nav_btn %>
+        </div>
+      </header>
+    <%# ヘッダー %>
     
     <%# メイン %>
-    <%= yield %>
+      <%= yield %>
+    <%# メイン %>
 
     <%# フッター %>
-    <footer>
-      <div class="footer_area">
-        <div class="top_btn" id="btn">トップへ</div>
-        <p class="copyright">Copyright © front end app All Rights Reserved.</p>
-      </div>
-    </footer>
+      <footer>
+        <div class="footer_area">
+          <div class="top_btn" id="btn">トップへ</div>
+          <p class="copyright">Copyright © front end app All Rights Reserved.</p>
+        </div>
+      </footer>
+    <%# フッター %>
+    
   </body>
 </html>
