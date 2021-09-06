@@ -10,6 +10,30 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%# ヘッダー %>
+      <header class="header">
+        <div class="area_logo">
+          <%= link_to image_tag("front.png", class: :logo), root_path %>
+        </div>
+        <div class="header_menu">
+          <a href="#scroll1" class="nav_btn">About</a>
+          <a href="#scroll2" class="nav_btn">Works</a>
+        </div>
+      </header>
+    <%# ヘッダー %>
+    
+    <%# メイン %>
+      <%= yield %>
+    <%# メイン %>
+
+    <%# フッター %>
+      <footer>
+        <div class="footer_area">
+          <div class="top_btn" id="btn">トップへ</div>
+          <p class="copyright">Copyright © front end app All Rights Reserved.</p>
+        </div>
+      </footer>
+    <%# フッター %>
+    
   </body>
 </html>
