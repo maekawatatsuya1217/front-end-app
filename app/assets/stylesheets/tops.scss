@@ -185,3 +185,20 @@ input:-webkit-autofill {
 .copyright{
     text-align: center;
 }
+
+
+// スクロールアニメーション
+
+.anime_up{
+    opacity: 0;
+    transition: all 2.0s ease;
+}
+   
+.anime_up.show{
+    opacity: 1;
+    transform: none;
+}
+   
+.anime_op{
+    transform: rotateX(-180deg);
+}
