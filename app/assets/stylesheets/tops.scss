@@ -148,7 +148,22 @@ input:-webkit-autofill {
     width: 200px;
     font-size: 25px;
     text-align: center;
-    margin: 10px 0 20px;
+    margin: 25px auto 15px;
+}
+
+.function_list{
+    text-shadow: 0 0 10px #fff,0 0 15px #fff;
+}
+
+.list_feature{
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
+
+.description{
+    width: 300px;
+    line-height: 30px;
 }
 
 // フッター
