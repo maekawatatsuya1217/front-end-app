@@ -4,5 +4,6 @@ class TopsController < ApplicationController
     end
 
     def first_content
+        render layout: false
     end
 end
