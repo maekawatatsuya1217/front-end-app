@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
+  <%# トップ %>
     <div class="area_top_view">
       <div class="top_page_container" style="background-image: url('<%= asset_path('flower.png') %>')");>
         <%= image_tag("flower_logo.png", class: :flower_logo) %>
@@ -16,6 +18,25 @@
           <div class="google_btn">Google Play</div>
         </div>
         <p class="send_message">＊北海道、沖縄、離島エリアは現在対象外です</p>
+      </div>
+    </div>
+
+    <%# 三分割レイアウト %>
+    <div class="three_layouts">
+      <div class="left_content">
+        <%= image_tag("left.png", class: :three_picture) %>
+        <h2>届くのは<br>あなた好みのお花だけ</h2>
+        <p>FLOWERのお花は季節やトレンドに合わせてプロがセレクトしたもの。雰囲気の異なる複数のお花から毎回好きなものが選べます。</p>
+      </div>
+      <div class="center_content">
+        <%= image_tag("center.png", class: :three_picture) %>
+        <h2>お花はポストに投函<br>忙しくても大丈夫</h2>
+        <p>お花は専用BOXに入れてポストに直接お届け。不在で受け取れなくても安心して使えます。</p>
+      </div>
+      <div class="right_content">
+        <%= image_tag("right.png", class: :three_picture) %>
+        <h2>FLOWERなら<br>いつも可愛く飾れる</h2>
+        <p>専用の花器を使うと、届いたお花をさっと生けるだけでかわいい空間のできあがり。お花のある暮らしがもっと楽しくなります。</p>
       </div>
     </div>
   </body>

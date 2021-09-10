@@ -32,7 +32,6 @@ li {
 img {
   max-width: 100%;
   vertical-align: bottom;
-  border-radius: 15px;
 }
   
 a {
@@ -211,6 +210,9 @@ input:-webkit-autofill {
 
 // ーーーーーーーーーーーーーーーーーーーーーーー模写サイト①ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 
+
+// ヘッダー
+
 .top_page_container{
     position: relative;
     height: 100vh;
@@ -220,6 +222,7 @@ input:-webkit-autofill {
 .flower_logo{
     height: 130px;
     margin: 130px  500px 0;
+    border-radius: 65px;
 }
 
 .logo_bottom_title{
@@ -261,6 +264,75 @@ input:-webkit-autofill {
 
 .send_message{
     margin: 50px 0 0 390px;
+}
+
+
+// 三分割
+
+.three_layouts{
+    display: flex;
+}
+
+.three_picture{
+    width: 480px;
+    height: 500px;
+}
+
+.left_content{
+    position: relative;
+}
+
+.left_content h2{
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.left_content p{
+    color: white;
+    width: 390px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+
+.center_content{
+    position: relative;
+}
+
+.center_content h2{
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.center_content p{
+    color: white;
+    width: 390px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+
+.right_content{
+    position: relative;
+}
+
+.right_content h2{
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.right_content p{
+    color: white;
+    width: 390px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
 }
 
 // ーーーーーーーーーーーーーーーーーーーーーーー模写サイト①ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
