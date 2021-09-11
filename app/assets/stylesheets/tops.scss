@@ -267,7 +267,7 @@ input:-webkit-autofill {
 }
 
 
-// 三分割
+// 三分割レイアウト
 
 .three_layouts{
     display: flex;
@@ -275,7 +275,7 @@ input:-webkit-autofill {
 
 .three_picture{
     width: 480px;
-    height: 500px;
+    height: 600px;
 }
 
 .left_content{
@@ -333,6 +333,68 @@ input:-webkit-autofill {
     position: absolute;
     top: 130px;
     left: 30px;
+}
+
+
+// 二分割レイアウト
+
+.two_layouts{
+    display: flex;
+}
+
+.two_picture{
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+}
+
+.two_left{
+    height: 500px;
+    width: 50%;
+    background-color: #F5F5F5;
+    padding: 50px 136px;
+}
+
+.top_h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.top_h3 h3{
+    font-size: 20px;
+}
+
+.two_image{
+    margin: 0 125px 10px;
+}
+
+.two_image2{
+    margin: 30px 270px 0;
+}
+
+.price{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.price p{
+    text-align: center;
+}
+
+.flower_price{
+    font-size: 20px;
+}
+
+.footnote{
+    text-align: center;
+    font-size: 13px;
+}
+
+.two_right{
+    height: 500px;
+    width: 50%;
+    padding: 103px 0;
 }
 
 // ーーーーーーーーーーーーーーーーーーーーーーー模写サイト①ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー

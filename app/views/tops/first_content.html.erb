@@ -39,5 +39,39 @@
         <p>専用の花器を使うと、届いたお花をさっと生けるだけでかわいい空間のできあがり。お花のある暮らしがもっと楽しくなります。</p>
       </div>
     </div>
+
+    <%# 二分割レイアウト %>
+    <div class="two_layouts">
+
+      <%# 左のレイアウト %>
+      <div class="two_left">
+        <div class="top_h3">
+          <h3>お部屋に飾りやすいサイズの<br>ブーケを気軽に</h3>
+        </div>
+        <div class="two_image">
+           <%= image_tag("left.png", class: :two_picture) %>
+        </div>
+        <div class="price">
+          <p><b>お花とグリーン5~7本のブーケ</b></p>
+          <p class="large"><b><span class="flower_price">880円</span> / 1回</b></p>
+        </div>
+        <div class="footnote">
+          <p>*送料別途396円</p>
+          <p>*価格は全て税込みです</p>
+        </div>
+      </div>
+
+      <%# 右のレイアウト %>
+      <div class="two_right">
+        <div class="top_h3">
+          <h3>月に2回の注文で、<br>お花がいつもある丁度いいペース</h3>
+        </div>
+        <div class="two_image2">
+          <%= image_tag("calendar.png", class: :two_picture) %>
+        </div>
+      </div>
+
+    </div>
+
   </body>
 </html>
