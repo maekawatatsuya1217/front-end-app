@@ -444,7 +444,7 @@ input:-webkit-autofill {
     text-align: center;
 }
 
-.container{
+.flower_container{
     display: flex;
 }
 
@@ -474,6 +474,29 @@ input:-webkit-autofill {
 
 .appeal p{
     text-align: center;
+}
+
+
+// フッター
+
+.under_picture{
+    height: 400px;
+    background-size: cover;
+}
+
+.footer_logo{
+    height: 80px;
+    margin: 130px  0 0 800px;
+    border-radius: 100px;
+}
+
+.flower_footer h3{
+    font-size: 25px;
+    margin: 5px 0 0 765px;
+}
+
+.flower_footer h4{
+    margin: 15px 0 0 761px;
 }
 
 // ーーーーーーーーーーーーーーーーーーーーーーー模写サイト①ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
