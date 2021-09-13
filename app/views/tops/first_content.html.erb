@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>模写サイト①</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <%# トップ %>
+    <div class="area_top_view">
+      <div class="top_page_container" style="background-image: url('<%= asset_path('flower.png') %>')");>
+        <%= image_tag("flower_logo.png", class: :flower_logo) %>
+        <p class="logo_bottom_title">FLOWER</p>
+        <p class="logo_bottom_title2">かわいいが届くお花便</p>
+        <div class="btn_container">
+          <div class="app_btn">App Store</div>
+          <div class="google_btn">Google Play</div>
+        </div>
+        <p class="send_message">＊北海道、沖縄、離島エリアは現在対象外です</p>
+      </div>
+    </div>
+
+    <%# 三分割レイアウト %>
+    <div class="three_layouts">
+      <div class="left_content">
+        <%= image_tag("left.png", class: :three_picture) %>
+        <h2>届くのは<br>あなた好みのお花だけ</h2>
+        <p>FLOWERのお花は季節やトレンドに合わせてプロがセレクトしたもの。雰囲気の異なる複数のお花から毎回好きなものが選べます。</p>
+      </div>
+      <div class="center_content">
+        <%= image_tag("center.png", class: :three_picture) %>
+        <h2>お花はポストに投函<br>忙しくても大丈夫</h2>
+        <p>お花は専用BOXに入れてポストに直接お届け。不在で受け取れなくても安心して使えます。</p>
+      </div>
+      <div class="right_content">
+        <%= image_tag("right.png", class: :three_picture) %>
+        <h2>FLOWERなら<br>いつも可愛く飾れる</h2>
+        <p>専用の花器を使うと、届いたお花をさっと生けるだけでかわいい空間のできあがり。お花のある暮らしがもっと楽しくなります。</p>
+      </div>
+    </div>
+
+    <%# 二分割レイアウト %>
+    <div class="two_layouts">
+      <%# 左のレイアウト %>
+      <div class="two_left">
+        <div class="top_h3">
+          <h3>お部屋に飾りやすいサイズの<br>ブーケを気軽に</h3>
+        </div>
+        <div class="two_image">
+           <%= image_tag("left.png", class: :two_picture) %>
+        </div>
+        <div class="price">
+          <p><b>お花とグリーン5~7本のブーケ</b></p>
+          <p class="large"><b><span class="flower_price">880円</span> / 1回</b></p>
+        </div>
+        <div class="footnote">
+          <p>*送料別途396円</p>
+          <p>*価格は全て税込みです</p>
+        </div>
+      </div>
+
+      <%# 右のレイアウト %>
+      <div class="two_right">
+        <div class="top_h3">
+          <h3>月に2回の注文で、<br>お花がいつもある丁度いいペース</h3>
+        </div>
+        <div class="two_image2">
+          <%= image_tag("calendar.png", class: :two_picture) %>
+        </div>
+      </div>
+    </div>
+    
+    <%# どんなお花が届くの？ %>
+    <div class="area_what_send">
+      <div class="next_picture" style="background-image: url('<%= asset_path('next.png') %>')");>
+      <div class="area_right">
+        <h2 class="item_title">どんなお花が届くの？</h2>
+        <div class="gap"></div>
+        <div class="item_body">
+          <h3>かわいいお花だけ</h3>
+          <p>色やサイズなど、かわいくおしゃれに飾れるお花にこだわってセレクト。季節やトレンドに合わせてブーケを作っています。</p>
+          <h3>元気な状態で</h3>
+          <p>お花は注文を受けてから市場で直接仕入れているから新鮮。お花の元気を保つ専用BOXでお届けします。</p>
+          <h3>そのまま飾れる</h3>
+          <p>あらかじめ飾るのに最適な長さに茎をカットしてお届け。箱から出して、そのまま花器に入れるだけでOKです。</p>
+        </div>
+      </div>
+    </div>
+
+    <%# アピール %>
+    <div class="area_appeal">
+      <h2 class="appeal_title">FLOWERだから続けられる、<br>お花のある暮らし</h2>
+      <div class="flower_container">
+        <div class="appeal">
+          <i class="fas fa-fan"></i>
+          <h3>お世話が簡単</h3>
+          <p>お花の栄養剤をセットでお届け。<br>こまめな水換えは不要です。</p>
+        </div>
+        <div class="appeal">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>アプリがお知らせ</h3>
+          <p>お花のお届けはアプリがお知らせ。<br>受け取り忘れの心配はありません。</p>
+        </div>
+        <div class="appeal">
+          <i class="fas fa-heart"></i>
+          <h3>安心の保証つき</h3>
+          <p>万が一枯れたお花が届いても、<br>返金対応いたします。</p>
+        </div>
+      </div>
+    </div>
+
+    <%# フッター %>
+    <div class="flower_footer">
+      <div class="under_picture" style="background-image: url('<%= asset_path('under.png') %>')");>
+      <%= image_tag("footer_logo.png", class: :footer_logo) %>
+      <h3>F L O W E R</h3>
+      <h4>かわいいが届くお花便</h4>
+    </div>
+
+  </body>
+</html>

@@ -32,7 +32,6 @@ li {
 img {
   max-width: 100%;
   vertical-align: bottom;
-  border-radius: 15px;
 }
   
 a {
@@ -51,6 +50,7 @@ input:-webkit-autofill {
   box-shadow: 0 0 0 1000px white inset;
 }
 
+// ーーーーーーーーーーーーーーーーーーーーーーートップページーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 
 // ヘッダー
 
@@ -202,3 +202,301 @@ input:-webkit-autofill {
 .anime_op{
     transform: rotateX(-180deg);
 }
+
+
+// ーーーーーーーーーーーーーーーーーーーーーーートップページーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+
+
+
+// ーーーーーーーーーーーーーーーーーーーーーーー模写サイト①ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+
+
+// ヘッダー
+
+.top_page_container{
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+}
+
+.flower_logo{
+    height: 130px;
+    margin: 130px  500px 0;
+    border-radius: 65px;
+}
+
+.logo_bottom_title{
+    color: white;
+    font-size: 30px;
+    margin: 30px 0 0 497px;
+}
+
+.logo_bottom_title2{
+    color: white;
+    font-size: 25px;
+    margin: 30px 0 0 435px;
+}
+
+.btn_container{
+    display: flex;
+    margin-top: 140px;
+}
+
+.app_btn{
+    height: 49px;
+    width: 164px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 13.0px;
+    margin-left: 380px;
+}
+
+.google_btn{
+    height: 49px;
+    width: 164px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 13.0px;
+    margin-left: 30px
+}
+
+.send_message{
+    margin: 50px 0 0 390px;
+}
+
+
+// 三分割レイアウト
+
+.three_layouts{
+    display: flex;
+}
+
+.three_picture{
+    width: 480px;
+    height: 600px;
+}
+
+.left_content{
+    position: relative;
+}
+
+.left_content h2{
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.left_content p{
+    color: white;
+    width: 390px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+
+.center_content{
+    position: relative;
+}
+
+.center_content h2{
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.center_content p{
+    color: white;
+    width: 390px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+
+.right_content{
+    position: relative;
+}
+
+.right_content h2{
+    color: white;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.right_content p{
+    color: white;
+    width: 390px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+
+
+// 二分割レイアウト
+
+.two_layouts{
+    display: flex;
+}
+
+.two_picture{
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+}
+
+.two_left{
+    height: 500px;
+    width: 50%;
+    background-color: #F5F5F5;
+    padding: 50px 136px;
+}
+
+.top_h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.top_h3 h3{
+    font-size: 20px;
+}
+
+.two_image{
+    margin: 0 125px 10px;
+}
+
+.two_image2{
+    margin: 30px 270px 0;
+}
+
+.price{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.price p{
+    text-align: center;
+}
+
+.flower_price{
+    font-size: 20px;
+}
+
+.footnote{
+    text-align: center;
+    font-size: 13px;
+}
+
+.two_right{
+    height: 500px;
+    width: 50%;
+    padding: 103px 0;
+}
+
+
+// どんな花が届くの？
+
+.next_picture{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.area_right{
+    margin-left: 720px;
+    width: 50%;
+    height: 100%;
+    padding: 140px 145px 0;
+}
+
+.item_title{
+    text-align: center;
+}
+
+.gap{
+    height: 60px;
+}
+
+.item_body h3{
+    text-align: center;
+    font-size: 22px;
+    margin: 24px 10px;
+}
+
+.item_body p{
+    width: 400px;
+    margin-bottom: 15px;
+}
+
+
+// アピール
+
+.area_appeal{
+    height: 500px;
+    padding: 90px 21px 95px;
+}
+
+.appeal_title{
+    text-align: center;
+}
+
+.flower_container{
+    display: flex;
+}
+
+.fa-fan{
+    color: #3f434a;
+    font-size: 50px;
+    margin: 50px 0 0 208px;
+}
+
+.fa-mobile-alt{
+    color: #3f434a;
+    font-size: 50px;
+    margin: 50px 0 0 208px;
+}
+
+.fa-heart{
+    color: #3f434a;
+    font-size: 50px;
+    margin: 50px 0 0 208px;
+}
+
+.appeal h3{
+    text-align: center;
+    width: 466px;
+    font-size: 22px;
+}
+
+.appeal p{
+    text-align: center;
+}
+
+
+// フッター
+
+.under_picture{
+    height: 400px;
+    background-size: cover;
+}
+
+.footer_logo{
+    height: 80px;
+    margin: 130px  0 0 800px;
+    border-radius: 100px;
+}
+
+.flower_footer h3{
+    font-size: 25px;
+    margin: 5px 0 0 765px;
+}
+
+.flower_footer h4{
+    margin: 15px 0 0 761px;
+}
+
+// ーーーーーーーーーーーーーーーーーーーーーーー模写サイト①ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
