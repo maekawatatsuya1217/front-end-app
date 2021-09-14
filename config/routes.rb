@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :tops, only: :index do
     collection do
       get 'first_content'
+      get 'second_content'
     end
   end
 end
