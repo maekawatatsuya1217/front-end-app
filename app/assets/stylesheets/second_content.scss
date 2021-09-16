@@ -1,3 +1,11 @@
+// 隙間
+
+.mywork_gap{
+    height: 100px;
+}
+
+
+
 // ヘッダー
 
 .mywork_header{
@@ -31,8 +39,32 @@
 
 // 画像
 
-
 .mywork_image{
     height: 420px;
     width: 100%;
+}
+
+
+
+// About
+
+.mywork_wrapper{
+    max-width: 960px;
+    margin: 0 auto 130px auto;
+    font-size: 0.9rem;
+    padding: 0 4%;
+}
+
+.sec_title{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 65px;
+}
+
+.mywork_ul{
+    margin: 30px 0;
+}
+
+.Ashley{
+    margin-bottom: 30px;
 }
