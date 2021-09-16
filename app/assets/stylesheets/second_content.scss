@@ -1,0 +1,28 @@
+// ヘッダー
+
+.mywork_header{
+    display: flex;
+    height: 270px;
+    max-width: 960px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.mywork_logo{
+    font-size: 27px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin: 0 10px;
+}
+
+.fa-instagram-square{
+    font-size: 23px;
+    margin: 0 10px;
+}
