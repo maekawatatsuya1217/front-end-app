@@ -68,3 +68,17 @@
 .Ashley{
     margin-bottom: 30px;
 }
+
+
+// Works
+
+.mywork_works ul{
+    display: flex;
+    justify-content: center;
+}
+
+.mywork_works li{
+    margin: 10px 10px;
+    height: 170px;
+    width: 30%;
+}
