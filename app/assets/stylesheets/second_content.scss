@@ -70,6 +70,7 @@
 }
 
 
+
 // Works
 
 .mywork_works ul{
@@ -81,4 +82,19 @@
     margin: 10px 10px;
     height: 170px;
     width: 30%;
+}
+
+
+
+// フッター
+
+.mywork_footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.mywork_footer p{
+    font-size: 12px;
+    text-align: center;
 }
