@@ -110,6 +110,46 @@
 
 
 
+// Contact
+
+.mywork_contact dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.mywork_contact dt{
+    width: 15%;
+    margin-left: 5%;
+}
+
+.mywork_contact dd{
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+.mywork_contact dd input, .mywork_contact dd textarea {
+    width: 100%;
+    border: solid 1px #c8c8c8;
+    padding: 10px;
+}
+
+.mywork_send{
+    width: 200px;
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    border: 1px solid black;
+    margin: 0 322.5px;
+}
+
+.mywork_send:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
 // フッター
 
 .mywork_footer{
