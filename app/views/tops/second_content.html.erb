@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Work</title>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <%# ヘッダー %>
+    <header class="mywork_header">
+      <div class="mywork_logo">
+        My Work
+      </div>
+      <div class="mywork_menu">
+        <ul class="menu">
+          <li>About</li>
+          <li>Works</li>
+          <li>News</li>
+          <li>Contact</li>
+          <li><i class="fab fa-instagram-square"></i></li>
+        </ul>
+      </div>
+    </header>
+  <%# ヘッダー %>
+
+  <%# 画像 %>
+    <picture>
+      <%= image_tag("mywork.png", class: :mywork_image) %>
+    </picture>
+  <%# 画像 %>
+
+  <%# 隙間 %>
+  <div class="mywork_gap"></div>
+  <%# 隙間 %>
+
+  <%# About %>
+    <section class="mywork_wrapper">
+      <h2 class="sec_title">About</h2>
+      <ul class="mywork_ul">
+        <li class="Ashley">Xxxxx Ashley</li>
+        <li>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
+        <li>tel: 000-0000-0000</li>
+        <li>url: www.xxxxxx.jp</li>
+        <li>mail: xxx@xxxxxx.jp</li>
+      </ul>
+      <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+    </section>
+  <%# About %>
+
+  <%# Works %>
+    <section class="mywork_wrapper mywork_works">
+      <h2 class="sec_title">Works</h2>
+      <ul>
+        <li>
+          <%= image_tag("topleft.png") %>
+        </li>
+        <li>
+          <%= image_tag("topcenter.png") %>
+        </li>
+        <li>
+          <%= image_tag("topright.png") %>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <%= image_tag("underleft.png") %>
+        </li>
+        <li>
+          <%= image_tag("undercenter.png") %>
+        </li>
+        <li>
+          <%= image_tag("underright.png") %>
+        </li>
+      </ul>
+    </section>
+  <%# Works %>
+
+  <%# News %>
+    <section class="mywork_wrapper mywork_news">
+      <h2 class="sec_title">News</h2>
+      <dl>
+        <dt>2020.XX.XX</dt>
+        <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
+        <dt>2020.XX.XX</dt>
+        <dd>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
+        <dt>2019.XX.XX</dt>
+        <dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+        <dt>2019.XX.XX</dt>
+        <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
+        <dt>2019.XX.XX</dt>
+        <dd>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+      </dl>
+    </section>
+  <%# News %>
+
+  <%# Contact %>
+    <section class="mywork_wrapper mywork_contact">
+      <h2 class="sec_title">Contact</h2>
+
+      <form action="#" method="#">
+        <dl>
+          <dt>
+            <label for="name">NAME</label>
+          </dt>
+          <dd>
+            <input type="text" id="name" name="your-name">
+          </dd>
+          <dt>
+            <label for="e-mail">E-mail</label>
+          </dt>
+          <dd>
+            <input type="email" id="email" name="your-email">
+          </dd>
+          <dt>
+            <label for="message">MESSAGE</label>
+          </dt>
+          <dd>
+            <textarea name="your-message" id="message" ></textarea>
+          </dd>
+        </dl>
+        <div class="mywork_btn">
+          <input type="submit" value="送信" class="mywork_send">
+        </div>
+      </form>
+    </section>
+  <%# Contact %>
+
+  <%# フッター %>
+    <footer class="mywork_footer">
+      <p>© 2020 My Work</p>
+    </footer>
+  <%# フッター %>
+    
+  </body>
+</html>

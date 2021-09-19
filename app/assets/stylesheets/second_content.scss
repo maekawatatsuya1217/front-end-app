@@ -1,0 +1,164 @@
+// 隙間
+
+.mywork_gap{
+    height: 100px;
+}
+
+
+
+// ヘッダー
+
+.mywork_header{
+    display: flex;
+    height: 270px;
+    max-width: 960px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.mywork_logo{
+    font-size: 27px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin: 0 10px;
+}
+
+.fa-instagram-square{
+    font-size: 23px;
+    margin: 0 10px;
+}
+
+
+
+// 画像
+
+.mywork_image{
+    height: 420px;
+    width: 100%;
+}
+
+
+
+// About
+
+.mywork_wrapper{
+    max-width: 960px;
+    margin: 0 auto 130px auto;
+    font-size: 0.9rem;
+    padding: 0 4%;
+}
+
+.sec_title{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 65px;
+}
+
+.mywork_ul{
+    margin: 30px 0;
+}
+
+.Ashley{
+    margin-bottom: 30px;
+}
+
+
+
+// Works
+
+.mywork_works ul{
+    display: flex;
+    justify-content: center;
+}
+
+.mywork_works li{
+    margin: 10px 10px;
+    height: 170px;
+    width: 30%;
+}
+
+
+
+// News
+
+.mywork_news dl{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px #c8c8c8;
+    margin-bottom: 20px;
+}
+
+.mywork_news dt {
+    width: 20%;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 15px;
+}
+
+.mywork_news dd {
+    width: 80%;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 15px;
+    margin-inline-start: 0;
+}
+
+
+
+// Contact
+
+.mywork_contact dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.mywork_contact dt{
+    width: 15%;
+    margin-left: 5%;
+}
+
+.mywork_contact dd{
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+.mywork_contact dd input, .mywork_contact dd textarea {
+    width: 100%;
+    border: solid 1px #c8c8c8;
+    padding: 10px;
+}
+
+.mywork_send{
+    width: 200px;
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    border: 1px solid black;
+    margin: 0 322.5px;
+}
+
+.mywork_send:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+// フッター
+
+.mywork_footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.mywork_footer p{
+    font-size: 12px;
+    text-align: center;
+}
