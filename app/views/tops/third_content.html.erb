@@ -2,10 +2,26 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Works</title>
+    <title>PAS-POL</title>
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
   </head>
   <body>
+  <%# ヘッダー %>
+    <header class="paspol_header">
+      <div class="paspol_logo">
+        <h1>PAS-POL</h1>
+        <h2>旅のものづくりブランド</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><%= link_to "TOP", third_content_tops_path %></li>
+          <li><%= link_to "PRODUCT", third_content_tops_path %></li>
+          <li><%= link_to "ABOUT", third_content_tops_path %></li>
+          <li><%= link_to "NEWS", third_content_tops_path %></li>
+          <li><%= link_to "CONTACT", third_content_tops_path %></li>
+        </ul>
+      </nav>
+    </header>
   </body>
 </html>

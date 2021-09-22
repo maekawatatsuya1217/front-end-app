@@ -1,0 +1,26 @@
+// ヘッダー
+
+.paspol_header{
+    height: 122px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.paspol_header_right{
+    display: block;
+}
+
+.paspol_logo h2{
+    font-size: 14px;
+}
+
+.paspol_header ul{
+    display: flex;
+}
+
+.paspol_header li a{
+    color: white;
+    margin: 0 10px;
+    font-size: 14px;
+}
