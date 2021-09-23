@@ -1,3 +1,7 @@
+body{
+    background-color: #f6f6f6;
+}
+
 // ヘッダー
 
 .paspol_header{
@@ -32,7 +36,7 @@
 
 // 背景画像
 
-.container{
+.p_img{
     height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -44,4 +48,37 @@
     height:100vh;
     border-bottom-right-radius: 4000px 300px;
     border-bottom-left-radius: 4000px 300px;
+}
+
+
+// 旅に出よう
+
+.journey_area{
+    height: 100%;
+    width: 816px;
+    margin: 110px 0 110px 312px;
+}
+
+.journey_area h1{
+    text-align: center;
+    font-size: 44px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+
+.journey_description{
+    font-size: 20px;
+    line-height: 1.7;
+    max-width: 370px;
+    margin-top: 50px;
+    margin: 70px auto 0 auto;
+}
+
+.journey_description p{
+    margin-top: 20px;
+}
+
+.description_site_logo b{
+    text-align: center;
+    font-size: 35px;
 }
