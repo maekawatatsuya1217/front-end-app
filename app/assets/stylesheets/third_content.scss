@@ -82,3 +82,66 @@ body{
     text-align: center;
     font-size: 35px;
 }
+
+
+
+// PRODUCT
+
+.product_area{
+    height: 100%;
+    background-color: white;
+    padding: 110px 0;
+}
+
+.product_container{
+    margin: 0 226px;
+    padding: 0 100px;
+}
+
+.product_top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_top{
+    font-size: 18px;
+}
+
+.more_btn{
+    height: 46px;
+    width: 162px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #13191b;
+    border: 1px solid #13191b;
+    text-align: center;
+    font-family: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.more_btn:hover{
+    background-color: #13191b;
+    color: white;
+}
+
+.product_main{
+    display: flex;
+    margin-top: 70px;
+}
+
+.product_card{
+    width: 30%;
+    margin: 0 29.83333333px;
+}
+
+.product_img{
+    height: 270px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.product_card p{
+    width: 90%;
+    font-size: 20px;
+    margin-top: 20px;
+}
