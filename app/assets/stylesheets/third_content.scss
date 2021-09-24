@@ -87,23 +87,20 @@ body{
 
 // PRODUCT
 
-.product_area{
+.pas_pol_area_product{
     height: 100%;
     background-color: white;
     padding: 110px 0;
 }
 
-.product_container{
+.pas_pol_container{
     margin: 0 226px;
     padding: 0 100px;
 }
 
-.product_top{
+.pas_pol_top{
     display: flex;
     justify-content: space-between;
-}
-
-.product_top{
     font-size: 18px;
 }
 
@@ -144,4 +141,51 @@ body{
     width: 90%;
     font-size: 20px;
     margin-top: 20px;
+}
+
+
+
+// NEWS
+
+.pas_pol_area_news{
+    height: 100%;
+    padding: 110px 0;
+}
+
+.news_main_parent{
+    display: block;
+}
+
+.news_main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.pas_pol_news_img{
+    height: 181px;
+    width: 322px;
+    margin: 0 15px;
+}
+
+.pas_pol_news_p{
+    width: 463px;
+    margin: 0 15px;
+}
+
+.pas_pol_news_p_ttl{
+    font-size: 18px;
+}
+
+.pas_pol_news_p_data{
+    color: #656c6e;
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: "Gill Sans Std Book", sans-serif;
+}
+
+.pas_pol_news_p_description{
+    font-size: 13px;
+    color: #656c6e;
+    margin: 20px 0 0;
 }
