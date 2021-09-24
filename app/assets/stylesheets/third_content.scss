@@ -189,3 +189,80 @@ body{
     color: #656c6e;
     margin: 20px 0 0;
 }
+
+
+
+// SHARE
+
+.pas_pol_share{
+    background-color: #fff;
+    position: relative;
+    padding: 35px 0;
+}
+
+.pas_pol_share_btn{
+    font-size: 0;
+    letter-spacing: -1em;
+    word-spacing: -1em;
+    text-align: center;
+}
+
+.pas_pol_share_btn1{
+    display: inline-block;
+    height: 46px;
+    width: 162px;
+    line-height: 48px;
+    font-size: 14px;
+    border: 1px solid #13191b;
+    margin: 0 15px;
+    text-align: center;
+    font-family: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 0.1em;
+    color: #4871a9;
+    border-color: #4871a9;
+}
+
+.pas_pol_share_btn1:hover{
+    color: #fff;
+    background-color: #4871a9;
+}
+
+.pas_pol_share_btn2{
+    display: inline-block;
+    height: 46px;
+    width: 162px;
+    line-height: 48px;
+    font-size: 14px;
+    border: 1px solid #13191b;
+    margin: 0 15px;
+    text-align: center;
+    font-family: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 0.1em;
+    color: #70bdd3;
+    border-color: #70bdd3;
+}
+
+.pas_pol_share_btn2:hover{
+    color: #fff;
+    background-color: #70bdd3;
+}
+
+.pas_pol_share_btn3{
+    display: inline-block;
+    height: 46px;
+    width: 162px;
+    line-height: 48px;
+    font-size: 14px;
+    border: 1px solid #13191b;
+    margin: 0 15px;
+    text-align: center;
+    font-family: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 0.1em;
+    color: #2f9bcd;
+    border-color: #2f9bcd;
+}
+
+.pas_pol_share_btn3:hover{
+    color: #fff;
+    background-color: #2f9bcd;
+}
