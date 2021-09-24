@@ -1,0 +1,309 @@
+body{
+    background-color: #f6f6f6;
+}
+
+// ヘッダー
+
+.paspol_header{
+    height: 122px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.paspol_header_right{
+    display: block;
+}
+
+.paspol_logo{
+    color: white;
+}
+
+.paspol_logo h2{
+    font-size: 14px;
+}
+
+.paspol_header ul{
+    display: flex;
+}
+
+.paspol_header li a{
+    color: white;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+
+// 背景画像
+
+.p_img{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.mainvisual{
+    width:100%;
+    height:100vh;
+    border-bottom-right-radius: 4000px 300px;
+    border-bottom-left-radius: 4000px 300px;
+}
+
+
+// 旅に出よう
+
+.journey_area{
+    height: 100%;
+    width: 816px;
+    margin: 110px 0 110px 312px;
+}
+
+.journey_area h1{
+    text-align: center;
+    font-size: 44px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+
+.journey_description{
+    font-size: 20px;
+    line-height: 1.7;
+    max-width: 370px;
+    margin-top: 50px;
+    margin: 70px auto 0 auto;
+}
+
+.journey_description p{
+    margin-top: 20px;
+}
+
+.description_site_logo b{
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+// PRODUCT
+
+.pas_pol_area_product{
+    height: 100%;
+    background-color: white;
+    padding: 110px 0;
+}
+
+.pas_pol_container{
+    margin: 0 226px;
+    padding: 0 100px;
+}
+
+.pas_pol_top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.more_btn{
+    height: 46px;
+    width: 162px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #13191b;
+    border: 1px solid #13191b;
+    text-align: center;
+    font-family: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.more_btn:hover{
+    background-color: #13191b;
+    color: white;
+}
+
+.product_main{
+    display: flex;
+    margin-top: 70px;
+}
+
+.product_card{
+    width: 30%;
+    margin: 0 29.83333333px;
+}
+
+.product_img{
+    height: 270px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.product_card p{
+    width: 90%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+// NEWS
+
+.pas_pol_area_news{
+    height: 100%;
+    padding: 110px 0;
+}
+
+.news_main_parent{
+    display: block;
+}
+
+.news_main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.pas_pol_news_img{
+    height: 181px;
+    width: 322px;
+    margin: 0 15px;
+}
+
+.pas_pol_news_p{
+    width: 463px;
+    margin: 0 15px;
+}
+
+.pas_pol_news_p_ttl{
+    font-size: 18px;
+}
+
+.pas_pol_news_p_data{
+    color: #656c6e;
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: "Gill Sans Std Book", sans-serif;
+}
+
+.pas_pol_news_p_description{
+    font-size: 13px;
+    color: #656c6e;
+    margin: 20px 0 0;
+}
+
+
+
+// SHARE
+
+.pas_pol_share{
+    background-color: #fff;
+    position: relative;
+    padding: 35px 0;
+}
+
+.pas_pol_share_btn{
+    font-size: 0;
+    letter-spacing: -1em;
+    word-spacing: -1em;
+    text-align: center;
+}
+
+.pas_pol_share_btn1{
+    display: inline-block;
+    height: 46px;
+    width: 162px;
+    line-height: 48px;
+    font-size: 14px;
+    border: 1px solid #13191b;
+    margin: 0 15px;
+    text-align: center;
+    font-family: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 0.1em;
+    color: #4871a9;
+    border-color: #4871a9;
+}
+
+.pas_pol_share_btn1:hover{
+    color: #fff;
+    background-color: #4871a9;
+}
+
+.pas_pol_share_btn2{
+    display: inline-block;
+    height: 46px;
+    width: 162px;
+    line-height: 48px;
+    font-size: 14px;
+    border: 1px solid #13191b;
+    margin: 0 15px;
+    text-align: center;
+    font-family: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 0.1em;
+    color: #70bdd3;
+    border-color: #70bdd3;
+}
+
+.pas_pol_share_btn2:hover{
+    color: #fff;
+    background-color: #70bdd3;
+}
+
+.pas_pol_share_btn3{
+    display: inline-block;
+    height: 46px;
+    width: 162px;
+    line-height: 48px;
+    font-size: 14px;
+    border: 1px solid #13191b;
+    margin: 0 15px;
+    text-align: center;
+    font-family: "Gill Sans Std Book", sans-serif;
+    letter-spacing: 0.1em;
+    color: #2f9bcd;
+    border-color: #2f9bcd;
+}
+
+.pas_pol_share_btn3:hover{
+    color: #fff;
+    background-color: #2f9bcd;
+}
+
+
+
+// フッター
+
+.pos_pol_footer_nav{
+    text-align: center;
+    background-color: #939899;
+    padding: 30px 0;
+}
+
+.pos_pol_footer_nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pos_pol_footer_nav li a{
+    color: #fff;
+    font-size: 14px;
+    margin: 0 15px;
+}
+
+.pos_pol_footer_logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 170px;
+    background-color: #656c6e;
+    padding: 35px 80px;
+}
+
+.pos_pol_footer_logo h1{
+    color: white;
+    font-size: 20px;
+}
+
+.pos_pol_footer_logo p{
+    color: white;
+    font-size: 12px;
+}
