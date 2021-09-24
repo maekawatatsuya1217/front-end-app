@@ -266,3 +266,44 @@ body{
     color: #fff;
     background-color: #2f9bcd;
 }
+
+
+
+// フッター
+
+.pos_pol_footer_nav{
+    text-align: center;
+    background-color: #939899;
+    padding: 30px 0;
+}
+
+.pos_pol_footer_nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pos_pol_footer_nav li a{
+    color: #fff;
+    font-size: 14px;
+    margin: 0 15px;
+}
+
+.pos_pol_footer_logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 170px;
+    background-color: #656c6e;
+    padding: 35px 80px;
+}
+
+.pos_pol_footer_logo h1{
+    color: white;
+    font-size: 20px;
+}
+
+.pos_pol_footer_logo p{
+    color: white;
+    font-size: 12px;
+}
