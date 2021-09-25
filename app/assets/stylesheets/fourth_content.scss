@@ -8,7 +8,9 @@
     margin-bottom: 80px;
 }
 
-// メイン
+
+
+// magazine
 
 .magazine{
     text-align: center;
@@ -31,4 +33,46 @@
     height: 517px;
     width: 49%;
     margin: 40px 0 80px;
+}
+
+
+
+// fashion
+
+.fashion{
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.fashion_wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.fashion_wrapper h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.mag88_fashion_btn{
+    color: #2a2a2a;
+    border: solid 1px #2a2a2a;
+    display: inline-block;
+    font-size: 0.750rem;
+    padding: 14px 36px;
+    margin-top: 30px;
+}
+
+.mag88_fashion_btn:hover{
+    color: #fff;
+    background-color: #2a2a2a;
+}
+
+.mag88_pc_img{
+    height: 200px;
+    width: 60%;
+    margin: 30px 0 80px;
 }
