@@ -9,7 +9,18 @@
   <body>
     
     <%# ヘッダー画像 %>
-      <div class="p_img" style="background-image: url('<%= asset_path('fourth.png') %>')");>
+      <div class="p_img" style="background-image: url('<%= asset_path('fourth.png') %>')");></div>
     <%# ヘッダー画像 %>
+
+    <%# magazine %>
+      <section class="magazine">
+        <h2>A special, long article in a newspaper or magazine</h2>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト</p>
+        <div class="mag88_two_layout">
+          <%= image_tag("mag88_left.png", class: :mag88_magazine_content) %>
+          <%= image_tag("mag88_right.png", class: :mag88_magazine_content) %>
+        </div>
+      </section>
+    <%# magazine %>
   </body>
 </html>
