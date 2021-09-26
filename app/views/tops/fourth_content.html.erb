@@ -50,11 +50,38 @@
             <h2 class="mag88_sec_title"><b>Antique</b></h2>
             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <%= link_to "Read More", fourth_content_tops_path, class: :mag88_fashion_btn %>
           </div>
           <%= image_tag("catalog_under.png", class: :mag88_magazine_content) %>
         </div>
       </section>
     <%# Catalog & Antique %>
+
+    <%# フッター %>
+      <footer>
+        <div class="mag88_footer">
+          <div class="mag88_item">
+            <%= image_tag("mag88_footer_logo.png", class: :mag88_footer_logo) %>
+          </div>
+          <div class="mag88_item">
+            <p>タイトル</p>
+            <ul>
+              <li>テキストテキストテキスト</li>
+              <li>テキストテキストテキスト</li>
+              <li>テキストテキストテキスト</li>
+              <li>テキストテキストテキスト</li>
+              <li>テキストテキストテキスト</li>
+            </ul>
+          </div>
+          <div class="mag88_item">
+            <p>タイトルタイトルタイトル</p>
+            <h6>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</h6>
+          </div>
+        </div>
+        <div class="mag88_copy_right">
+          <p>© Mag88</p>
+        </div>
+      </footer>
+    <%# フッター %>
   </body>
 </html>

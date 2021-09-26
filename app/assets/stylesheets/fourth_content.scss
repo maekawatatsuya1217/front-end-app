@@ -102,3 +102,49 @@
     text-align: left;
 }
 
+
+
+// フッター
+
+.mag88_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: #333;
+    padding: 50px 192px;
+    margin: 0 auto;
+}
+
+.mag88_item{
+    width: 33%;
+    line-height: 2;
+    padding: 60px 0;
+}
+
+.mag88_footer_logo{
+    height: 40px;
+    width: 120px;
+}
+
+.mag88_item p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mag88_item li{
+    font-size: 0.750rem;
+}
+
+.mag88_item h6{
+    font-size: 12px;
+}
+
+.mag88_copy_right{
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    padding: 30px 0;
+    text-align: center;
+}
