@@ -1,0 +1,150 @@
+// ヘッダー
+
+.p_img{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+
+
+// magazine
+
+.magazine{
+    text-align: center;
+    margin-bottom: 80px;
+    max-width: 1200px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+.magazine h2{
+    margin-bottom: 20px;
+}
+
+.mag88_two_layout{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mag88_magazine_content{
+    height: 517px;
+    width: 49%;
+    margin: 40px 0 80px;
+}
+
+
+
+// fashion
+
+.fashion{
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.fashion_wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.fashion_wrapper h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.mag88_fashion_btn{
+    color: #2a2a2a;
+    border: solid 1px #2a2a2a;
+    display: inline-block;
+    font-size: 0.750rem;
+    padding: 14px 36px;
+    margin-top: 30px;
+}
+
+.mag88_fashion_btn:hover{
+    color: #fff;
+    background-color: #2a2a2a;
+}
+
+.mag88_pc_img{
+    height: 200px;
+    width: 60%;
+    margin: 30px 0 80px;
+}
+
+
+
+// catalog
+
+.catalog{
+    margin-bottom: 80px;
+    max-width: 1200px;
+    padding: 60px 0;
+    margin: 0 auto;
+}
+
+.catalog_description{
+    width: 48%;
+    text-align: center;
+}
+
+.catalog_description h2{
+    margin: 137.5px 0 40px;
+}
+
+.catalog_description p {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+
+
+// フッター
+
+.mag88_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: #333;
+    padding: 50px 192px;
+    margin: 0 auto;
+}
+
+.mag88_item{
+    width: 33%;
+    line-height: 2;
+    padding: 60px 0;
+}
+
+.mag88_footer_logo{
+    height: 40px;
+    width: 120px;
+}
+
+.mag88_item p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mag88_item li{
+    font-size: 0.750rem;
+}
+
+.mag88_item h6{
+    font-size: 12px;
+}
+
+.mag88_copy_right{
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    padding: 30px 0;
+    text-align: center;
+}

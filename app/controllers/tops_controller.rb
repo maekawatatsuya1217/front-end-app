@@ -14,4 +14,8 @@ class TopsController < ApplicationController
     def third_content
         render layout: false
     end
+
+    def fourth_content
+        render layout: false
+    end
 end

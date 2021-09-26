@@ -145,7 +145,25 @@ input:-webkit-autofill {
     width: 200px;
     font-size: 25px;
     text-align: center;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 15px;
     margin: 25px auto 15px;
+}
+
+.list_feature  .ttl a{
+    color: rgb(177, 177, 177);
+}
+
+.function_list{
+    text-shadow: 0 0 10px #fff,0 0 15px #fff;
+}
+
+.list_feature  .ttl:hover{
+    background-color: rgb(180, 218, 238);
+}
+
+.list_feature  .ttl a:hover{
+    color: white;
 }
 
 .function_list{
@@ -161,6 +179,10 @@ input:-webkit-autofill {
 .description{
     width: 300px;
     line-height: 30px;
+}
+
+.index_content_gap{
+    height: 100px;
 }
 
 // フッター

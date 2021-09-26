@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mag88</title>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <%# ヘッダー画像 %>
+      <div class="p_img" style="background-image: url('<%= asset_path('fourth.png') %>')");></div>
+    <%# ヘッダー画像 %>
+
+    <%# magazine %>
+      <section class="magazine">
+        <h2>A special, long article in a newspaper or magazine</h2>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト</p>
+        <div class="mag88_two_layout">
+          <%= image_tag("mag88_left.png", class: :mag88_magazine_content) %>
+          <%= image_tag("mag88_right.png", class: :mag88_magazine_content) %>
+        </div>
+      </section>
+    <%# magazine %>
+
+    <%# fashion %>
+      <section class="fashion">
+        <div class="fashion_wrapper">
+          <h2>Fashion & Style</h2>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト</p>
+          <%= link_to "Read More", fourth_content_tops_path, class: :mag88_fashion_btn %>
+        </div>
+        <%= image_tag("mag88_pc.png", class: :mag88_pc_img) %>
+      </section>
+    <%# fashion %>
+
+    <%# Catalog & Antique %>
+      <section class="catalog">
+        <div class="mag88_two_layout">
+          <%= image_tag("catalog_top.png", class: :mag88_magazine_content) %>
+          <div class="catalog_description">
+            <h2 class="mag88_sec_title"><b>Catalog</b></h2>
+            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+        </div>
+        <div class="mag88_two_layout">
+          <div class="catalog_description">
+            <h2 class="mag88_sec_title"><b>Antique</b></h2>
+            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <%= link_to "Read More", fourth_content_tops_path, class: :mag88_fashion_btn %>
+          </div>
+          <%= image_tag("catalog_under.png", class: :mag88_magazine_content) %>
+        </div>
+      </section>
+    <%# Catalog & Antique %>
+
+    <%# フッター %>
+      <footer>
+        <div class="mag88_footer">
+          <div class="mag88_item">
+            <%= image_tag("mag88_footer_logo.png", class: :mag88_footer_logo) %>
+          </div>
+          <div class="mag88_item">
+            <p>タイトル</p>
+            <ul>
+              <li>テキストテキストテキスト</li>
+              <li>テキストテキストテキスト</li>
+              <li>テキストテキストテキスト</li>
+              <li>テキストテキストテキスト</li>
+              <li>テキストテキストテキスト</li>
+            </ul>
+          </div>
+          <div class="mag88_item">
+            <p>タイトルタイトルタイトル</p>
+            <h6>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</h6>
+          </div>
+        </div>
+        <div class="mag88_copy_right">
+          <p>© Mag88</p>
+        </div>
+      </footer>
+    <%# フッター %>
+  </body>
+</html>
