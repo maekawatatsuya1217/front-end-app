@@ -1,0 +1,27 @@
+// ヘッダー
+
+.xeory_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #47B39D;
+    padding: 34px 120px;
+}
+
+.xeory_logo{
+    color: #fff;
+    font-size: 24px;
+}
+
+.xeory_header ul{
+    display: flex;
+}
+
+.xeory_header li{
+    color: #fff;
+    padding: 0 12px;
+}
+
+.xeory_header li:hover{
+    background-color: #5eceb8;
+}
