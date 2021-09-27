@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       get 'second_content'
       get 'third_content'
       get 'fourth_content'
+      get 'fifth_content'
     end
   end
 end
