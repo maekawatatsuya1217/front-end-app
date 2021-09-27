@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #47B39D;
+    background-color: #41BAA4;
     padding: 34px 120px;
 }
 
@@ -24,4 +24,28 @@
 
 .xeory_header li:hover{
     background-color: #5eceb8;
+}
+
+
+
+// ヘッダー下の説明
+
+.xeory_header_bottom_area{
+    height: 488px;
+    background-color: #47B39D;
+    color: #fff;
+    text-align: center;
+    padding-top: 153px;
+}
+
+.xeory_header_bottom_area h2{
+    font-size: 48px;
+    line-height: 70px;
+    margin-bottom: 24px;
+}
+
+.xeory_header_bottom_area p{
+    font-size: 15px;
+    width: 600px;
+    margin: 0 auto;
 }
