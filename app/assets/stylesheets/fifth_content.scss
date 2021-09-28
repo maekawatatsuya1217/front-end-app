@@ -51,10 +51,10 @@
 }
 
 
+// コンテンツ同士の隙間
 
-// メイン
-
-.xeory_main_area{
+.xeory_gap{
+    height: 60px;
     background-color: rgb(242, 242, 242);
 }
 
@@ -64,10 +64,8 @@
 
 .popular_articles{
     text-align: center;
-    background-color: #fff;
     padding: 24px 0;
     border: 1px solid #e5e5e5;
-    margin-top: 52px;
 }
 
 .xeory_wrap{

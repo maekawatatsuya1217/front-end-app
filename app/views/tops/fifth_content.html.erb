@@ -29,6 +29,10 @@
   <%# メイン %>
   <div class="xeory_main_area">
 
+    <%# コンテンツ同士の隙間 %>
+      <div class="xeory_gap"></div>
+    <%# コンテンツ同士の隙間 %>
+
     <%# 人気のある記事 %>
     <div class="popular_articles_area">
       <div class="popular_articles">
@@ -65,9 +69,54 @@
       </div>
     </div>
     <%# 人気のある記事 %>
+
+    <%# コンテンツ同士の隙間 %>
+      <div class="xeory_gap"></div>
+    <%# コンテンツ同士の隙間 %>
+
+    <%# 最近の投稿 %>
+    <div class="popular_articles_area">
+      <div class="popular_articles">
+        <h2>最近の投稿</h2>
+      </div>
+      <div class="xeory_wrap">
+          <div class="xeory_popular_contents">
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+          </div>
+      </div>
+    </div>
+    <%# 最近の投稿 %>
+
+    <%# コンテンツ同士の隙間 %>
+      <div class="xeory_gap"></div>
+    <%# コンテンツ同士の隙間 %>
   
   </div>
   <%# メイン %>
-  
+
   </body>
 </html>
