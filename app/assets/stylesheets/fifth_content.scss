@@ -31,7 +31,7 @@
 // ヘッダー下の説明
 
 .xeory_header_bottom_area{
-    height: 488px;
+    height: calc(100vh - 104px);
     background-color: #47B39D;
     color: #fff;
     text-align: center;
@@ -48,4 +48,58 @@
     font-size: 15px;
     width: 600px;
     margin: 0 auto;
+}
+
+
+
+// メイン
+
+.xeory_main_area{
+    background-color: rgb(242, 242, 242);
+}
+
+
+
+// 人気のある記事
+
+.popular_articles{
+    text-align: center;
+    background-color: #fff;
+    padding: 24px 0;
+    border: 1px solid #e5e5e5;
+    margin-top: 52px;
+}
+
+.xeory_wrap{
+    margin: 0 135.828px;
+}
+
+.xeory_popular_contents{
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.xeory_popular_content{
+    margin: 0 0 20px 26.391px;
+}
+
+.xeory_popular_img{
+    height: 140px;
+    width: 211.672px;
+    margin-bottom: 12px;
+}
+
+.xeory_popular_content p{
+    width: 124px;
+    color: #fff;
+    background: #47B39D;
+    font-size: 12px;
+    padding: 8px 24px;
+    margin-bottom: 12px;
+}
+
+.xeory_popular_content h3{
+    font-size: 16px;
+    margin-bottom:12px ;
 }
