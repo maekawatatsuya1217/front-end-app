@@ -101,3 +101,120 @@
     font-size: 16px;
     margin-bottom:12px ;
 }
+
+
+
+// 特徴
+
+.xeory_feature_header{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background: #3B4552;
+    padding: 16px 0 24px;
+}
+
+.fa-check{
+    font-size: 28px;
+}
+
+.xeory_feature_header h2{
+    font-size: 28px;
+}
+
+.xeory_feature_header p{
+    font-size: 13px;
+}
+
+.xeory_feature_main_area{
+    position: relative;
+    height: 405px;
+    background-color: #fff;
+}
+
+.xeory_feature_main_area2{
+    position: relative;
+    height: 405px;
+    background-color: #f7f7f7;
+}
+
+.xeory_feature_wrap{
+    overflow: visible;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.xeory_feature_inner{
+    float: left;
+    z-index: 10;
+    width: 54%;
+    padding-bottom: 32px;
+}
+
+.xeory_feature_inner2{
+    float: right;
+    z-index: 10;
+    width: 54%;
+    padding-bottom: 32px;
+}
+
+.xeory_feature_number{
+    display: inline-block;
+    color: #fff;
+    background: #47B39D;
+    padding: 40px 12px 8px;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.xeory_feature_ttl{
+    color: #47B39D;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.xeory_feature_english{
+    color: #47B39D;
+    font-size: 13px;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.xeory_feature_right_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 405px;
+    background-size: cover;
+}
+
+.xeory_feature_left_img{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 40%;
+    height: 405px;
+    background-size: cover;
+}
+
+.xeory_feature_text{
+    margin-bottom: 48px;
+}
+
+.xeory_feature_btn{
+    border-radius: 5px;
+    background: #FF6C00;
+    color: #fff;
+    font-size: 14px;
+    -webkit-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+    opacity: 1;
+    display: block;
+    width: 30%;
+    padding: 12px;
+    margin-top: 48px;
+    text-align: center;
+}
