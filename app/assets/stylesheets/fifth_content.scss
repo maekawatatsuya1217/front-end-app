@@ -223,3 +223,66 @@
     background: #ffb885;
     color: #fff;
 }
+
+
+
+// サービス紹介
+
+.xeory_service_inner{
+    margin-left: -10%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.xeory_service_box{
+    width: 40%;
+    padding-top: 96px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.xeory_service_box2{
+    width: 40%;
+    padding-top: 96px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.xeory_service_ttl{
+    text-align: center;
+}
+
+.xeory_service_ttl h3{
+    color: #47B39D;
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.xeory_service_english{
+    color: #47B39D;
+    font-size: 13px;
+    margin-bottom: 32px;
+}
+
+.xeory_service_btn{
+    border-radius: 5px;
+    background: #47B39D;
+    color: #fff;
+    margin: 0 auto;
+    -webkit-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+    opacity: 1;
+    display: block;
+    width: 50%;
+    padding: 16px 20px;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.xeory_service_btn:hover{
+    background: #5cf0d2;
+    color: #fff;
+}
