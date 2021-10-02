@@ -1,0 +1,357 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Xeory Extension</title>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+  </head>
+  <body>
+  <%# ヘッダー %>
+    <header class="xeory_header">
+      <%= link_to "Xeory Extension", fifth_content_tops_path, class: :xeory_logo %>
+      <div class="xeory_nav_area">
+        <ul>
+            <li>記事ページサンプル</li>
+            <li>Extensionをダウンロード</li>
+        </ul>
+      </div>
+    </header>
+  <%# ヘッダー %>
+
+  <%# ヘッダー下の説明 %>
+  <div class="xeory_header_bottom_area">
+    <h2>Xeory Extension</h2>
+    <p>Xeory Extensionはワンコラムのサイト型テーマです。ユーザーに対して重要なコンテンツを効率的に届けられるようにデザインされています。５種類のカラーバリエーションを用意しています。</p>
+  </div>
+  <%# ヘッダー下の説明 %>
+
+  <%# メイン %>
+  <div class="xeory_main_area">
+
+    <%# コンテンツ同士の隙間 %>
+      <div class="xeory_gap"></div>
+    <%# コンテンツ同士の隙間 %>
+
+    <%# 人気のある記事 %>
+    <section class="popular_articles_area">
+      <div class="popular_articles">
+        <h2>人気のある記事</h2>
+      </div>
+      <div class="xeory_wrap">
+          <div class="xeory_popular_contents">
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+          </div>
+      </div>
+    <section>
+    <%# 人気のある記事 %>
+
+    <%# コンテンツ同士の隙間 %>
+      <div class="xeory_gap"></div>
+    <%# コンテンツ同士の隙間 %>
+
+    <%# 最近の投稿 %>
+    <section class="popular_articles_area">
+      <div class="popular_articles">
+        <h2>最近の投稿</h2>
+      </div>
+      <div class="xeory_wrap">
+          <div class="xeory_popular_contents">
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+            <article class="xeory_popular_content">
+              <%= link_to image_tag("under.png", class: :xeory_popular_img), fifth_content_tops_path %>
+              <p>カテゴリー#1</p>
+              <h3>テスト投稿</h3>
+            </article>
+          </div>
+      </div>
+    </section>
+    <%# 最近の投稿 %>
+
+    <%# コンテンツ同士の隙間 %>
+      <div class="xeory_gap"></div>
+    <%# コンテンツ同士の隙間 %>
+
+    <%# 特徴 %>
+      <section class="xeory_feature_area">
+        <div class="xeory_feature_header">
+          <i class="fas fa-check"></i>
+          <h2>XeoryExtensionの特徴</h2>
+          <p>feature</p>
+        </div>
+
+        <%# モバイルレスポンシブ %>
+          <section class="xeory_feature_main_area">
+            <div class="xeory_feature_wrap">
+              <div class="xeory_feature_box">
+                <div class="xeory_feature_inner">
+                  <div class="xeory_feature_title">
+                    <p class="xeory_feature_number">1</p>
+                    <h3 class="xeory_feature_ttl">モバイルレスポンシブ</h3>
+                    <p class="xeory_feature_english">Mobile Responsive</p>
+                    <p>Xeory Extensionはレスポンシブデザインを採用しています。スマートフォンやタブレットなど各種デバイスで表示が最適化されます。</p>
+                    <p class="xeory_feature_btn">詳しく見る</p>
+                  </div>
+                </div>
+                <div>
+                  <%= image_tag("under.png", class: :xeory_feature_right_img) %>
+                </div>
+              </div>
+            </div>
+          </section>
+        <%# モバイルレスポンシブ %>
+
+        <%# HTML5デザイン %>
+          <section class="xeory_feature_main_area2">
+            <div class="xeory_feature_wrap">
+              <div class="xeory_feature_box">
+                <div>
+                  <%= image_tag("under.png", class: :xeory_feature_left_img) %>
+                </div>
+                <div class="xeory_feature_inner2">
+                  <div class="xeory_feature_title">
+                    <p class="xeory_feature_number">2</p>
+                    <h3 class="xeory_feature_ttl">HTML5デザイン</h3>
+                    <p class="xeory_feature_english">HTML5 Design</p>
+                    <p>Xeory Extensionは最新のHTML5言語でデザイン及びコーディングがなされています。時代遅れのソースからは卒業しましょう。</p>
+                    <p class="xeory_feature_btn">詳しく見る</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <%# HTML5デザイン %>
+
+        <%# SEO最適化 %>
+          <section class="xeory_feature_main_area">
+            <div class="xeory_feature_wrap">
+              <div class="xeory_feature_box">
+                <div class="xeory_feature_inner">
+                  <div class="xeory_feature_title">
+                    <p class="xeory_feature_number">3</p>
+                    <h3 class="xeory_feature_ttl">SEO最適化</h3>
+                    <p class="xeory_feature_english">Search Engine Optimized</p>
+                    <p>Xeory ExtensionはGoogleのSEOガイドラインに可能な限り沿った構造になっています。必要なのは良質なコンテンツだけです。</p>
+                    <p class="xeory_feature_btn">詳しく見る</p>
+                  </div>
+                </div>
+                <div>
+                  <%= image_tag("under.png", class: :xeory_feature_right_img) %>
+                </div>
+              </div>
+            </div>
+          </section>
+        <%# SEO最適化 %>
+
+        <%# 高いカスタマイズ性 %>
+          <section class="xeory_feature_main_area2">
+            <div class="xeory_feature_wrap">
+              <div class="xeory_feature_box">
+                <div>
+                  <%= image_tag("under.png", class: :xeory_feature_left_img) %>
+                </div>
+                <div class="xeory_feature_inner2">
+                  <div class="xeory_feature_title">
+                    <p class="xeory_feature_number">4</p>
+                    <h3 class="xeory_feature_ttl">高いカスタマイズ性</h3>
+                    <p class="xeory_feature_english">Customizable</p>
+                    <p>Xeory Extensionはカスタマイズフリーです。CSS, HTML, PHP の知識があれば自由にカスタマイズすることができます。</p>
+                    <p class="xeory_feature_btn">詳しく見る</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <%# 高いカスタマイズ性 %>
+      </section>
+    <%# 特徴 %>
+
+    <%# サービス紹介 %>
+      <section class="xeory_feature_area">
+        <div class="xeory_feature_header">
+          <i class="fas fa-check"></i>
+          <h2>サービス紹介</h2>
+          <p>service</p>
+        </div>
+        <div class="xeory_feature_wrap">
+          <div class="xeory_service_inner">
+            <section class="xeory_service_box">
+              <div class="xeory_service_ttl">
+                <h3>Xeoryカスタマイズ</h3>
+                <p class="xeory_service_english">Xeory Customize</p>
+                <p class="xeory_service_btn">カスタマイズ事例を見る</p>
+              </div>
+            </section>
+            <section class="xeory_service_box2">
+              <div class="xeory_service_ttl">
+                <h3>コンサルティング</h3>
+                <p class="xeory_service_english">Consulting</p>
+                <p class="xeory_service_btn">コンサルティング事例を見る</p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    <%# サービス紹介 %>
+
+    <%# 会社紹介 %>
+      <section class="xeory_feature_area">
+        <div class="xeory_feature_header">
+          <i class="fas fa-check"></i>
+          <h2>会社紹介</h2>
+          <p>company</p>
+        </div>
+        <div class="xeory_i_main">
+          <div class="xeory_i_img">
+            <%= image_tag("xeory_img.png") %>
+          </div>
+          <div class="xeory_feature_wrap">
+            <div class="xeory_i_inner">
+              <dl class="front-company">
+                <span class="xeory_dt">会社名</span>
+                <span class="xeory_dd1">株式会社〇〇〇〇</span>
+              </dl>
+              <dl class="front-company">
+                  <span class="xeory_dt">電話番号</span>
+                  <span class="xeory_dd2">000-0000-0000</span>
+              </dl>
+              <dl class="front-company">
+                  <span class="xeory_dt">住所</span>
+                  <span class="xeory_dd3">東京都渋谷区</span>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+    <%# 会社紹介 %>
+
+    <%# お問い合わせ %>
+      <section class="xeory_feature_area">
+        <div class="xeory_feature_header">
+          <i class="fas fa-check"></i>
+          <h2>お問い合わせ</h2>
+          <p>inquiry</p>
+        </div>
+        <div class="xeory_f_main">
+          <div class="xeory_feature_wrap">
+            <div class="xeory_f_inner">
+              <form action="#" method="#">
+                <dl>
+                  <dt>
+                    <label for="name" class="xeory_form_name">お名前（必須）</label>
+                  </dt>
+                  <dd>
+                    <input type="text" id="name" name="your-name" class="xeory_form">
+                  </dd>
+                  <dt>
+                    <label for="e-mail" class="xeory_form_name">メールアドレス（必須）</label>
+                  </dt>
+                  <dd>
+                    <input type="email" id="email" name="your-email" class="xeory_form">
+                  </dd>
+                  <dt>
+                    <label for="e-mail" class="xeory_form_name">題名（必須）</label>
+                  </dt>
+                  <dd>
+                    <input type="email" id="email" name="your-email" class="xeory_form">
+                  </dd>
+                  <dt>
+                    <label for="message" class="xeory_form_name">メッセージ本文</label>
+                  </dt>
+                  <dd>
+                    <textarea name="your-message" id="message" class="xeory_form_description" ></textarea>
+                  </dd>
+                </dl>
+                <div class="mywork_btn">
+                  <input type="submit" value="送信" class="xeory_send">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    <%# お問い合わせ %>
+
+    <%# フッター %>
+      <section class="xeory_f">
+        <div class="xeory_f_1">
+          <div class="xeory_f_wrap">
+            <div class="xeory_f_brand_area">
+              <div class="xeory_f_logo">XeoryExtension</div>
+            </div>
+            <div class="xeory_f_c_area">
+              <div class="xeory_f_l_area">
+                <div class="row">
+                  <div class="xeory_f_cont_content">
+                    <h4>ブログコンテンツ</h4>
+                  </div>
+                  <div class="xeory_f_sns_content">
+                    <h4>ソーシャルメディア</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="xeory_f_r_area">
+                <div class="row">
+                  <div class="xeory_footer_img">
+                    <%= image_tag("under.png", class: :xeory_f_img) %>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="xeory_under_f">
+        <div class="xeory_under_f_wrap">
+          <p>© Copyright 2021 XeoryExtension. All rights reserved.</p>
+        </div>
+      </div>
+    <%# フッター %>
+  
+  </div>
+  <%# メイン %>
+
+  </body>
+</html>
