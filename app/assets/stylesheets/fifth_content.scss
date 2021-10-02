@@ -373,3 +373,105 @@
     padding: 10px 0;
     margin: 0 auto;
 }
+
+
+
+// フッター
+
+.xeory_f{
+    color: #fff;
+    border-top: 8px solid #3B4552;
+}
+
+.xeory_f_1{
+    background: #031731;
+    padding: 48px 0;
+}
+
+.xeory_f_wrap{
+    padding: 30px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.xeory_f_brand_area{
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #3B4552;
+}
+
+.xeory_f_logo{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 24px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.xeory_f_c_area{
+    margin-left: -15px;
+    margin-right: -15px;
+    font-size: 14px;
+}
+
+.xeory_f_l_area{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    background: #031731;
+}
+
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.xeory_f_cont_content{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.xeory_f_sns_content{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33.333%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.xeory_f_r_area{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    background: #031731;
+}
+
+.xeory_f_img{
+    height: 60px;
+    width: 400px;
+    margin-left: 200px;
+}
+
+.xeory_under_f{
+    background: #010A17;
+}
+
+.xeory_under_f_wrap{
+    padding: 30px 0;
+}
+
+.xeory_under_f_wrap p{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
