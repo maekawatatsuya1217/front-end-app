@@ -1,0 +1,46 @@
+// ヘッダー
+
+#blog_header{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+}
+
+#blog_header .blog_site_title{
+    padding: 18px 16px;
+}
+
+#blog_header .blog_wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#blog_header .blog_logo{
+    font-size: 26px;
+}
+
+#blog_navi{
+    background-color: #333;
+}
+
+#navi .blog_wrapper{
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+#blog_navi ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#blog_navi li{
+    font-size: 0.875rem;
+    padding: 10px 60px 10px 0;
+}
+
+.blog_header_btn{
+    color: #fff;
+}

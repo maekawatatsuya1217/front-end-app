@@ -7,5 +7,22 @@
     <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
   </head>
   <body>
+
+  <%# ヘッダー %>
+    <header id="blog_header">
+      <div class="blog_site_title blog_wrapper">
+        <%= link_to "Travel Blog", six_content_tops_path, class: :blog_logo %>
+      </div>
+      <nav id="blog_navi">
+        <ul class="blog_wrapper">
+          <li><%= link_to "NEW", six_content_tops_path, class: :blog_header_btn %></li>
+          <li><%= link_to "COLUMN", six_content_tops_path, class: :blog_header_btn %></li>
+          <li><%= link_to "SELIES", six_content_tops_path, class: :blog_header_btn %></li>
+          <li><%= link_to "Q&A", six_content_tops_path, class: :blog_header_btn %></li>
+          <li><%= link_to "CONTACT", six_content_tops_path, class: :blog_header_btn %></li>
+        </ul>
+      </nav>
+    </header>
+  <%# ヘッダー %>
   </body>
 </html>
