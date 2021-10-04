@@ -47,11 +47,61 @@
             <%= image_tag("blog_3.png") %>
             <h2 class="article-title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
             <div class="readmore">
-              <%= link_to "READ MORE ", six_content_tops_path, class: :blog_header_btn %>
+              <%= link_to "READ MORE", six_content_tops_path, class: :blog_header_btn %>
             </div>
           </article>
         </div>
       <%# ピックアップ %>
+
+      <%# メインコンテンツ %>
+      <div id="blog_container" class="blog_wrapper">
+        <main>
+          <article>
+            <h2 class="article-title">
+              <b><%= link_to "タイトルテキストテキストテキストテキストテキスト", six_content_tops_path %></b>
+            </h2>
+            <ul class="blog_meta">
+              <li><%= link_to "2020/01/01", six_content_tops_path %></li>
+              <li><%= link_to "カテゴリ1", six_content_tops_path %></li>
+            </ul>
+            <%= link_to image_tag("blog_1.png"), six_content_tops_path %>
+            <p class="text">本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <div class="readmore">
+              <%= link_to "READ MORE", six_content_tops_path %>
+            </div>
+          </article>
+          <article>
+            <h2 class="article-title">
+              <b><%= link_to "タイトルテキストテキストテキストテキストテキスト", six_content_tops_path %></b>
+            </h2>
+            <ul class="blog_meta">
+              <li><%= link_to "2020/01/01", six_content_tops_path %></li>
+              <li><%= link_to "カテゴリ2", six_content_tops_path %></li>
+            </ul>
+            <%= link_to image_tag("blog_2.png"), six_content_tops_path %>
+            <p class="text">本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <div class="readmore">
+              <%= link_to "READ MORE", six_content_tops_path %>
+            </div>
+          </article>
+          <article>
+            <h2 class="article-title">
+              <b><%= link_to "タイトルテキストテキストテキストテキストテキスト", six_content_tops_path %></b>
+            </h2>
+            <ul class="blog_meta">
+              <li><%= link_to "2020/01/01", six_content_tops_path %></li>
+              <li><%= link_to "カテゴリ3", six_content_tops_path %></li>
+            </ul>
+            <%= link_to image_tag("blog_3.png"), six_content_tops_path %>
+            <p class="text">本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <div class="readmore">
+              <%= link_to "READ MORE", six_content_tops_path %>
+            </div>
+          </article>
+        </main>
+      </div>
+      <%# メインコンテンツ %>
+
     </div>
   <%# メイン %>
   </body>
