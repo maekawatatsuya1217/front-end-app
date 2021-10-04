@@ -24,5 +24,35 @@
       </nav>
     </header>
   <%# ヘッダー %>
+
+  <%# メイン %>
+    <div class="blog_main">
+      <%# ピックアップ %>
+        <div id="pickup" class="blog_wrapper">
+          <article>
+            <%= image_tag("blog_1.png") %>
+            <h2 class="article-title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
+            <div class="readmore">
+              <%= link_to "READ MORE ", six_content_tops_path, class: :blog_header_btn %>
+            </div>
+          </article>
+          <article>
+            <%= image_tag("blog_2.png") %>
+            <h2 class="article-title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
+            <div class="readmore">
+              <%= link_to "READ MORE ", six_content_tops_path, class: :blog_header_btn %>
+            </div>
+          </article>
+          <article>
+            <%= image_tag("blog_3.png") %>
+            <h2 class="article-title">タイトルテキストテキストテキストテキストテキストテキストテキスト</h2>
+            <div class="readmore">
+              <%= link_to "READ MORE ", six_content_tops_path, class: :blog_header_btn %>
+            </div>
+          </article>
+        </div>
+      <%# ピックアップ %>
+    </div>
+  <%# メイン %>
   </body>
 </html>

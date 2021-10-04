@@ -44,3 +44,41 @@
 .blog_header_btn{
     color: #fff;
 }
+
+
+
+// ピックアップ
+
+#pickup {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    margin-bottom: 60px;
+}
+
+.blog_wrapper {
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+#pickup article{
+    width: 32%;
+}
+
+#pickup .article-title {
+    font-size: 1rem;
+    margin: 10px 0 15px 0;
+}
+
+.readmore {
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.readmore a {
+    padding-bottom: 1px;
+    color: #333;
+    position: relative;
+    text-decoration: underline;
+}
