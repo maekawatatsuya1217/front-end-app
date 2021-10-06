@@ -120,3 +120,35 @@ main li {
 main .text {
     padding: 10px 40px 30px 40px;
 }
+
+
+
+// サイドコンテンツ
+
+#sidebar{
+    width: 33%;
+    padding: 20px;
+}
+
+.author img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+#sidebar h3{
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.author {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.author .profile {
+    font-size: 14px;
+    text-align: left;
+}
