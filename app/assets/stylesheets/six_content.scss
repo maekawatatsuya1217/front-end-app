@@ -49,6 +49,10 @@
 
 // ピックアップ
 
+.blog_main{
+    background-color: #fff;
+}
+
 #pickup {
     display: flex;
     justify-content: space-between;
@@ -198,4 +202,67 @@ main .text {
     border-top: solid 1px #777;
     padding: 20px;
     text-align: left;
+}
+
+
+
+// フッター
+
+#blog_footer {
+    font-size: 0.875rem;
+    background-color: #f7f7f7;
+}
+
+#blog_footer .blog_content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blog_wrapper {
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+#blog_footer .blog_item {
+    width: 30%;
+}
+
+#blog_footer .blog_footer_title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.blog_about_list {
+    margin: 20px 0;
+}
+
+#blog_footer ul.about_list li {
+    margin-bottom: 5px;
+}
+
+#blog_footer ul.about_list .blog_arrow {
+    position: relative;
+    display: inline-block;
+    padding-left: 12px;
+    color: #333;
+}
+
+#blog_footer .blog_menu_list {
+    border-bottom: solid 1px #777;
+}
+
+#blog_footer .blog_menu_list > li {
+    border-top: solid 1px #777;
+    padding: 15px;
+    text-align: left;
+}
+
+#blog_footer .blog_copyright {
+    font-size: 0.750rem;
+    text-align: center;
+    padding: 10px 0;
 }

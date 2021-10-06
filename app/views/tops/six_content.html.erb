@@ -151,7 +151,6 @@
               </ul>
             </section>
           <%# 記録 %>
-
         </aside>
       <%# サイドコンテンツ %>
 
@@ -160,5 +159,36 @@
 
     </div>
   <%# メイン %>
+
+  <%# フッター %>
+    <footer id="blog_footer">
+      <div class="blog_content blog_wrapper">
+        <section class="blog_item">
+          <h3 class="blog_footer_title">About</h3>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          <ul class="blog_about_list">
+            <li><%= link_to "▶︎ プロフィール詳細", class: :blog_arrow %></li>
+            <li><%= link_to "▶︎ お仕事の依頼", class: :blog_arrow %></li>
+            <li><%= link_to "▶︎ お問い合わせ", class: :blog_arrow %></li>
+          </ul>
+        </section>
+        <section class="blog_item">
+          <h3 class="blog_footer_title">Menu</h3>
+          <ul class="blog_menu_list">
+            <li><%= link_to "NEW", six_content_tops_path %></li>
+            <li><%= link_to "CATEGORY", six_content_tops_path %></li>
+            <li><%= link_to "COLUMN", six_content_tops_path %></li>
+            <li><%= link_to "SERIES", six_content_tops_path %></li>
+            <li><%= link_to "Q&A", six_content_tops_path %></li>
+          </ul>
+        </section>
+        <section class="blog_item">
+          <h3 class="blog_footer_title">Twitter</h3>
+          <%= image_tag("blog_twitter.png") %>
+        </section>
+      </div>
+      <p class="blog_copyright">© Travel & Blog</p>
+    </footer>
+  <%# フッター %>
   </body>
 </html>
